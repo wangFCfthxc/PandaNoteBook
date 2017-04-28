@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MessageDAODemo {
 
 	public static void main(String[] args) {
-		MessageDAO dao = new MessageDAO("jdbc:mysql://localhost/demo?" + "useUnicode=true&characterEcoding=UTF8",
+		MessageDAO2 dao = new MessageDAO2("jdbc:mysql://localhost/demo?" + "useUnicode=true&characterEcoding=UTF8",
 				"root", "root");
 		Scanner console = new Scanner(System.in);
 		while(true){
